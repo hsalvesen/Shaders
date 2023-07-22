@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+    @apply min-h-screen;
+    @apply font-bFont
+    overflow-x-hidden
+  }
+
+  h1 {
+    @apply font-tFont;
+  }
+
+  ::selection {
+    @apply text-white bg-blue-600;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+html,
+body {
+  font-family: "Roslindale Display Condensed";
+}
+/* .nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+} */
+
+#myElement {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transition: transform 1s;
+    /* background-color: #b798c1; */
+    width: 100%;
+    height: 100vh;
+    transform: scaleY(0);
+    transform-origin: top;
+    z-index: 50;
+   
+  }
+  #image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
