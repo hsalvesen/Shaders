@@ -1,0 +1,78 @@
+
+  
+  .rotating-text-hovered1 div span, .rotating-text-hovered2 div span, .rotating-text-hovered3 div span, .rotating-text-hovered4 div span {
+    animation: rotateForwardAnim 1200ms cubic-bezier(0.390, 1.000, 0.220, 1.000);
+   }
+  
+   
+   @keyframes rotateForwardAnim {
+     0% {
+       transform: rotateX(360deg);
+     }
+     100% {
+       transform: rotateX(0deg);
+     }
+   }
+   
+   .rotating-remove-text1 div span, .rotating-remove-text2 div span, .rotating-remove-text3 div span, .rotating-remove-text4 div span {
+     animation: rotateBackwardAnim 1200ms cubic-bezier(0.390, 1.000, 0.220, 1.000);
+   }
+   
+   @keyframes rotateBackwardAnim {
+     0% {
+       transform: rotateX(0deg);
+     }
+     100% {
+       transform: rotateX(360deg);
+     }
+   }
+   
+   #box div span {
+     display: inline-block;
+   }
+   
+   #box div span:nth-child(1) {
+     animation-delay: 0ms;
+ 
+   }
+   
+   #box div span:nth-child(2) {
+     animation-delay: 50ms;
+   }
+   
+   #box div span:nth-child(3) {
+     animation-delay: 100ms;
+   }
+   #box div span:nth-child(4) {
+    animation-delay: 150ms;
+  }
+   
+   #box div span:nth-child(5) {
+     animation-delay: 200ms;
+   }
+   #box div span:nth-child(6) {
+    animation-delay: 250ms;
+  }
+  #box div span:nth-child(7) {
+    animation-delay: 300ms;
+  }
+  #box div span:nth-child(8) {
+    animation-delay: 350ms;
+  }
+  #box div span:nth-child(9) {
+    animation-delay: 400ms;
+  }
+  #box div span:nth-child(10) {
+    animation-delay: 450ms;
+  }
+  #box div span:nth-child(11) {
+    animation-delay: 500ms;
+  }
+  #box div span:nth-child(12) {
+    animation-delay: 550ms;
+  }
+  #box div span:nth-child(13) {
+    animation-delay: 600ms;
+  }
+  
+  
